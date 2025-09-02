@@ -5,23 +5,29 @@
 ## Установка и запуск
 
 ### 1. Установка зависимостей
+```bash
 pip install -r requirements.txt
-
+```
 ### 2. Создание миграций
+```bash
 python manage.py makemigrations
-
+```
 ### 3. Применение миграций
+```bash
 python manage.py migrate
-
+```
 ### 4. Запуск тестов
+```bash
 python manage.py test
-
+```
 ### 5. Создание суперпользователя
+```bash
 python manage.py createsuperuser
-
-### 6. Запуск сервера разработки 
+```
+### 6. Запуск сервера разработки
+```bash 
 python manage.py runserver
-
+```
 ## Структура проекта
 
 - `game_app/models.py` - Модели для первого задания (Player, BoostType, Boost, PlayerBoostHistory)
